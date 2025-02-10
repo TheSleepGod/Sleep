@@ -1,5 +1,6 @@
 #!/bin/bash
 export HF_ENDPOINT="https://hf-mirror.com"
+export HF_HUB_ENABLE_HF_TRANSFER=4
 if [ $# -eq 0 ]; then
     echo "错误：请提供模型名称，例如 'username/model-name'"
     exit 1
